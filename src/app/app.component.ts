@@ -1,14 +1,11 @@
 import {Component} from '@angular/core';
 import * as Highcharts from 'highcharts';
 import  More from 'highcharts/highcharts-more';
-More(Highcharts);
 import Drilldown from 'highcharts/modules/drilldown';
-Drilldown(Highcharts);
-// Load the exporting module.
 import Exporting from 'highcharts/modules/exporting';
-// Initialize exporting module.
+More(Highcharts);
+Drilldown(Highcharts);
 Exporting(Highcharts);
-
 
 @Component({
   selector: 'app-root',
