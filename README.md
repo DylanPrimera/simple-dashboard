@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # simple-dashboard
-An simple dashboard example with Highcarts libray and Angular.
+An simple dashboard example with Highcharts libray and Angular.
 =======
 # DashboardDummie
 
